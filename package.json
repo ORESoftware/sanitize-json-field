@@ -1,0 +1,32 @@
+{
+  "name": "sanitize-json-field",
+  "version": "0.0.101",
+  "description": "Sanitize JSON field (remove/replace problematic characters)",
+  "main": "index.js",
+  "bin": {
+    "sanitize_json_field": "index.js",
+    "sjf": "index.js"
+  },
+  "scripts": {
+    "test": "suman test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/sanitize-json-field.git"
+  },
+  "keywords": [
+    "JSON",
+    "sanitize",
+    "bash"
+  ],
+  "author": "Olegzandr VD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/sanitize-json-field/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/sanitize-json-field#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/node": "^9.6.0"
+  }
+}

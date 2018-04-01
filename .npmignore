@@ -1,0 +1,7 @@
+*.log
+.gitignore
+.npmignore
+.idea
+scripts
+.vscode
+test
