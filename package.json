@@ -1,8 +1,10 @@
 {
   "name": "sanitize-json-field",
-  "version": "0.0.101",
+  "version": "0.0.102",
   "description": "Sanitize JSON field (remove/replace problematic characters)",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "bin": {
     "sanitize_json_field": "index.js",
     "sjf": "index.js"
