@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
     "declaration": true,
     "baseUrl": ".",
     "target": "es6",
@@ -14,10 +16,7 @@
     ]
   },
   "compileOnSave": false,
-  "exclude": [
-    "public",
-    "public-coverage",
-    "test",
-    "node_modules"
+  "include": [
+    "src"
   ]
 }

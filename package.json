@@ -6,8 +6,8 @@
   "typings": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "bin": {
-    "sanitize_json_field": "index.js",
-    "sjf": "index.js"
+    "sanitize_json_field": "dist/index.js",
+    "sjf": "dist/index.js"
   },
   "scripts": {
     "test": "suman test"
